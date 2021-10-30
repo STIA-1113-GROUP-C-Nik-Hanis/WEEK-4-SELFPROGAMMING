@@ -1,0 +1,21 @@
+package SelfProgramming;
+
+import java.util.Scanner;
+
+public class Echo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String message;
+	      Scanner obj = new Scanner (System.in);
+
+	      System.out.print ("Enter a line of text:");
+
+	      message = obj.nextLine();
+
+	      System.out.println ("You entered: \"" + message + "\"");
+
+
+	}
+
+}
