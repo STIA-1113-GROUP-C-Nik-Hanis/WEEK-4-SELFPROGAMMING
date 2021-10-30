@@ -1,0 +1,31 @@
+package SelfProgramming;
+
+import java.util.Scanner;
+
+public class TheMathClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int a;
+		int b;
+		int c;
+		
+		Scanner obj = new Scanner (System.in);
+		
+		System.out.print ("Enter a : ");
+		a = obj.nextInt();
+		
+		System.out.print ("Enter b : ");
+		b = obj.nextInt();
+		
+		System.out.print ("Enter c : ");
+		c = obj.nextInt();
+		
+		double answer = ((-b) + (Math.sqrt((b * b) - (4 * a * c))) / (2 * a));
+		
+        System.out.printf ("Answer = %.2f " , answer);
+
+	}
+
+}
