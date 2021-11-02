@@ -1,0 +1,8 @@
+Enter an integer:
+2
+Using nextInt(): 2
+Enter Double value: 33.0
+Using nextDouble(): 33.0
+Average is 17.50
+false
+false
