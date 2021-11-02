@@ -1,0 +1,33 @@
+package myscanner;
+
+import java.util.Scanner;
+
+public class IntegerScanner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int integer;
+		double value;
+		
+		Scanner obj = new Scanner (System.in);
+		
+		System.out.println("Enter an integer:");
+		integer = obj.nextInt();
+		
+		System.out.println("Using nextInt(): " + integer);
+		
+		System.out.print("Enter Double value: ");
+		value = obj.nextDouble();
+ 
+		System.out.println("Using nextDouble(): " + value);
+		
+		double average = (value + integer) /2; 
+		System.out.printf("Average is %.2f" , average);
+		
+		System.out.println( );
+		System.out.println(integer > value );
+		System.out.println(integer == value );
+	}
+
+}
